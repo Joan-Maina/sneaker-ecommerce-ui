@@ -1,0 +1,128 @@
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80px;
+    margin-top: -50px;
+  }
+  #logo {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    overflow: hidden;
+    margin-left: 50px;
+    border-radius: 50px;
+  }
+  .icons {
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+  }
+  .links {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-evenly;
+    width: 800px;
+  }
+  h3 {
+    font-weight: bold;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .photos {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+  }
+  #mainimage {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    /* border-radius: 10px; */
+  }
+  .display {
+    display: flex;
+    justify-content: space-evenly;
+    width: 250px;
+    margin-top: 20px;
+  }
+  .main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80vh;
+    /* gap: 100px; */
+    row-gap: 100px;
+  }
+  .details {
+    width: 35%;
+  }
+  #addtocart {
+    background-color: rgb(236, 95, 43);
+    width: 200px;
+    border: none;
+    height: 45px;
+    color: white;
+  }
+  .price {
+    display: flex;
+    flex-direction: column;
+  }
+  .price1 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+  }
+  .price2 {
+    margin-left: 40px;
+  }
+  
+  button {
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .quantity {
+    width: 40px;
+    text-align: center;
+    /* /* margin: 5px; */
+  }
+  .main-container {
+    margin: 50px 20px 50px 20px;
+  }
+  #company {
+    color: orangered;
+    font-size: small;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  h1 {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #price3 {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+  }
+  #price4 {
+    background-color: gainsboro;
+    color: rgb(224, 93, 45);
+    display: flex;
+    align-items: center;
+    margin: 5px;
+  }
+  .addtocart {
+    display: flex;
+    /* flex-direction: column; */
+    row-gap: 2px;
+  }
+  h5 {
+    color: rgb(255, 74, 8);
+    display: flex;
+    align-items: center;
+    /* margin-top: 50000px; */
+    height: 30px;
+  }
+  
