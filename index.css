@@ -61,6 +61,9 @@ img {
   .details {
     width: 35%;
   }
+  .menu{
+    display: none;
+  }
   #addtocart {
     background-color: rgb(236, 95, 43);
     width: 200px;
@@ -79,6 +82,7 @@ img {
   }
   .price2 {
     margin-left: 40px;
+    text-decoration: line-through;
   }
   
   button {
@@ -125,4 +129,46 @@ img {
     /* margin-top: 50000px; */
     height: 30px;
   }
-  
+  @media only screen and (max-width: 600px) {
+    .main-container{
+      margin-top: 300px;
+    }
+    .navbar{
+      margin-top: -300px;
+      
+    }
+    .menu{
+      display: flex;
+    }
+  .main{
+    /* display: flex; */
+    flex-direction: column;
+  }
+  .details{
+    width: 100%;
+    margin-top: -60px;
+  }
+  .display,.links{
+    display: none;
+  }
+  #mainimage{
+  margin-top: 200px;
+  width: 100%;
+  align-self: center;
+  }
+  .addtocart{
+    display: flex;
+    flex-direction: column;
+  }
+  .quantity{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #addtocart{
+    width: 100%;
+  }
+  .price{
+    flex-direction: row;
+  }
+  }
