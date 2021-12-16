@@ -14,34 +14,51 @@
     <title>SNEAKERS EDITION</title>
   </head>
   <body>
-    <div class="main-container">
-      <div class="navbar">
-        <div class="brand">
-          <h3>Sneakers</h3>
-        </div>
-        <div class="links">
-          <p>Collections</p>
-          <p>Men</p>
-          <p>Women</p>
-          <p>About</p>
-          <p>Contact</p>
-        </div>
-
-        <div class="icons">
-          <i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
-          <img
-            id="logo"
-            src="https://images.unsplash.com/photo-1565814636199-ae8133055c1c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
-          />
-        </div>
+    <nav>
+      <div id="nav-left">
+        <img src="images/icon-menu.svg" alt="" id="menu" />
+        <span id="logo">
+          <img src="images/logo.svg" alt="" />
+        </span>
+        <span id="ulspan" class="">
+          <img src="images/icon-close.svg" alt="" class="cursor" />
+          <ul>
+            <li>Collections</li>
+            <li>Men</li>
+            <li>Women</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
+        </span>
       </div>
+      <div id="nav-right">
+        <div class="number-of-items" id="num"></div>
+        <img src="images/icon-cart.svg" alt="" class="cursor" />
+        <img
+          src="https://images.unsplash.com/photo-1565814636199-ae8133055c1c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
+          alt=""
+          id="img-hero"
+          class="cursor"
+        />
+      </div>
+    </nav>
+    <main>
       <div class="main">
         <div class="photos">
-          <img
-            id="mainimage"
-            src="https://images.unsplash.com/photo-1515555230216-82228b88ea98?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=726&q=80"
-          />
-          <div class="display">
+          <div class="main-img">
+            <a class="prev2">&#10094;</a>
+            <div class="pic">
+              <img
+                class="main-img"
+                id="mainimage"
+                src="https://images.unsplash.com/photo-1515555230216-82228b88ea98?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=726&q=80"
+              />
+            </div>
+
+            <a class="next2">&#10093;</a>
+          </div>
+
+          <div class="thumbnails cursor">
             <img
               src="https://images.unsplash.com/photo-1615028456268-02eb9815a776?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=375&q=80"
             />
@@ -56,32 +73,34 @@
             />
           </div>
         </div>
-        <div class="details">
-          <p id="company">SNEAKER COMPANY</p>
-          <h1>Fall Limited Edition Sneakers</h1>
+        <div class="text-col">
+          <span id="highlight">Sneaker company</span>
+          <h1 id="name">Fall Limited Edition Sneakers</h1>
           <p>
             These low-profile sneakers are your perfect casual wear companion.
-            Featuring a durable rubber cuter sole, they'll withstand everything
-            the weather can offer
+            Featuring a durable rubber outer sole, they’ll withstand everything
+            the weather can offer.
           </p>
-          <div class="price">
-            <div class="price1">
-              <p id="price3">$125.00</p>
-              <h5 id="price4">50%</h5>
-            </div>
-            <p class="price2">$250.00</p>
-          </div>
-          <div class="addtocart">
-            <p class="quantity" id="price4">-</p>
-            <p class="quantity">0</p>
-            <p class="quantity" id="price4">+</p>
-            <button id="addtocart">
-              <i class="fa fa-cart-arrow-down" aria-hidden="true"></i> Add to
-              cart
+          <span id="price">
+            <h2>$<span id="amount">125.00</span></h2>
+            <small>50%</small>
+          </span>
+
+          <span id="old-price">$250.00</span>
+          <div class="options">
+            <button>
+              <img src="images/icon-minus.svg" alt="" />
+            </button>
+            <button id="result">0</button>
+            <button>
+              <img src="images/icon-plus.svg" alt="" />
+            </button>
+            <button id="addToCart">
+              <img src="images/icon-cart.svg" alt="" /> Add to Cart
             </button>
           </div>
         </div>
       </div>
-    </div>
+    </main>
   </body>
 </html>
